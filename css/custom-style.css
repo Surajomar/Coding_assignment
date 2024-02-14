@@ -1,0 +1,129 @@
+.big-banner{
+    background-image: url('../images/bg.avif');
+    background-size: 100%;
+}
+
+.fresh-content{
+    background: linear-gradient(-45deg,#ec5252,#6e1a52);
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.card img {
+    transition: transform 0.3s;
+}
+
+.card .badge {
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translateY(-100%);
+}
+
+.card:hover .badge {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card-body h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card-body p {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.card-text small {
+    font-size: 12px;
+}
+
+.float-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn-lg {
+    font-size: 1.25rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn-lg:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.figure {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.figure:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.nav-link.active:hover {
+    color: inherit;
+}
+
+.navbar-brand {
+    transition: transform 0.3s;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    font-size: 0.85rem;
+    color: #6c757d;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #6c757d;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}
